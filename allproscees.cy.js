@@ -42,7 +42,4 @@ describe('All proses in web', () => {
                     cy.get('.bm-burger-button').click()
                     cy.get('strong').should('contain.text', 'Home')
                 })
-		    })
-	    })
-    })
 })
