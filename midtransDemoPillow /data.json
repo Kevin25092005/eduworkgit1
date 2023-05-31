@@ -1,0 +1,18 @@
+{
+  "detailedform" :{
+    "name": "Gugun",
+    "email": "Gugun@gmail.com",
+    "phone": "0821879076",
+    "city" : "Padang",
+    "address" : "Jl.nanggrek 20",
+    "postalCode" : "161718"
+  },
+
+  "unDetailedform" :{
+    "name": "Gugun",
+    "email": "",
+    "phone": "082187907",
+    "city" : "Pariaman",
+    "address" : "Jl.nanggrek 20",
+    "postalCode" : "161718"
+  }
