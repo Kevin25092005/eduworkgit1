@@ -35,7 +35,6 @@ Cypress.Commands.add('filledCheckout', (name, email, phone, city, address, posta
             cy.get('.cart-checkout').click()
 })
 
-
 Cypress.Commands.add('unfilledCheckout', (name, email, phone, city, address, postalCode) => {
      cy.get('.buy').click()
             cy.get('[data-reactid=".0.0.1.0.3.0.0.0"] > .input > input').clear().type('Gugun')
