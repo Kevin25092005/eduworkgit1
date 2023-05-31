@@ -20,12 +20,12 @@ describe('Testing Midtrans Demo Website', () => {
                 const address = user.detailedform.address
                 const postalCode = user.detailedform.postalCode
         
-                // checkout using custom commands
-                cy.filledCheckout(name,email,phone,city,address,postalCode)
+             // checkout using custom commands
+             cy.filledCheckout(name,email,phone,city,address,postalCode)
         
-                // //Assert the Checkout button
-                cy.get('iframe[id="snap-midtrans"]')
-                })
+             // //Assert the Checkout button
+             cy.get('iframe[id="snap-midtrans"]')
+             })
         });
 
         it('Should display error checkout', () => {
