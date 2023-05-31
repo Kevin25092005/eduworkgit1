@@ -39,7 +39,7 @@ Cypress.Commands.add('filledCheckout', (name, email, phone, city, address, posta
 Cypress.Commands.add('unfilledCheckout', (name, email, phone, city, address, postalCode) => {
      cy.get('.buy').click()
             cy.get('[data-reactid=".0.0.1.0.3.0.0.0"] > .input > input').clear().type('Gugun')
-            cy.get('[data-reactid=".0.0.1.0.3.0.0.1"] > .input > input').clear().type('Gugun@gmail.com')
+            cy.get('[data-reactid=".0.0.1.0.3.0.0.1"] > .input > input').clear().type('')
             cy.get('[data-reactid=".0.0.1.0.3.0.0.2"] > .input > input').clear().type('0821879076')
             cy.get('[data-reactid=".0.0.1.0.3.0.0.3"] > .input > input').clear().type('Padang')
             cy.get('textarea').clear().type('jl.nanggrek 20')
