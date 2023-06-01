@@ -10,7 +10,7 @@ describe('Testing Nested Resources Gorest API', () => {
                      "title": "Debeo qui et voro calamitas valetudo dolor optio doloribus eveniet sit strenuus arca thalassinus nihil volup.",
                      "body": "Spes vox debitis. Atrox accusator tego. Bonus surgo peior. Dolorum aegre deleniti. Arcus alii sapiente. Et acerbitas saepe. Timor sui volutabrum. Cibo conicio bardus. Totam defluo aperio. Comedo patria attonbitus. Voluptas contabesco consequatur. Taceo demum despirmatio. Defluo crastinus voluntarius. Thalassinus incidunt cur. Sed tonsor tenax. Dolore subiungo avoco. Voluntarius tumultus expedita. Sperno avaritia minima. Civis vigilo reprehenderit. Vulariter magni adflicto. Pectus autem sperno.",        
                     },
-                })
+               })
          
           cy.get('@postWithAuth').its('status').should('equal', 200)    
           
