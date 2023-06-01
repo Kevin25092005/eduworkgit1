@@ -20,7 +20,7 @@ describe('Testing gorest API', () =>{
                             "gender": "male",
                             "status": "inactive"
                            },
-                   })
+                  })
           cy.get('@postWithAuth').its('status').should('equal', 200);
     })
 
