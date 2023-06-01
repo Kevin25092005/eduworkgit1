@@ -29,8 +29,8 @@ describe('Testing gorest API', () =>{
                 method: 'GET',
                 url: 'https://gorest.co.in/public/v2/users/1562',
                 body: {
-                    "name": "Amish Bandopadhyay",
-                     "email": "bandopadhyay_amish@rowe.net",
+                    "name": "Gugun",
+                     "email": "gun@gmail.com",
                      "gender": "male",
                      "status": "active"
                      },
